@@ -2,6 +2,10 @@
 # For such a small project this approach would have still worked but I wanted to utilize this
 # to show I am familiar with 'settings'/'exception' files such as this one and may others
 
+[FORMAT]
+# Added value indicated by PEP8 guidelines
+max-line-length=97
+
 [MESSAGES CONTROL]
 # Disable following validations
 # W0603 - Using the global statement (global-statement)
