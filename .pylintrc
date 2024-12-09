@@ -1,0 +1,9 @@
+# I gathered here custom rules for pylint as I did not want to mangle them in the source file
+# For such a small project this approach would have still worked but I wanted to utilize this
+# to show I am familiar with 'settings'/'exception' files such as this one and may others
+
+[MESSAGES CONTROL]
+# Disable following validations
+# W0603 - Using the global statement (global-statement)
+# C0103 - Constant name "<name>" doesn't conform to UPPER_CASE naming style (invalid-name)
+disable=W0603, C0103, W0311
